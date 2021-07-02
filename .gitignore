@@ -1,0 +1,6 @@
+node_modules
+.idea
+webpack.client.js
+webpack.server.js
+dist
+.env

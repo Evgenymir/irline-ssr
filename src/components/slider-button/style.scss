@@ -1,0 +1,38 @@
+@import "../../assets/css/mixins";
+
+.slider-button {
+  width: 36px;
+  height: 66px;
+  position: absolute;
+  top: 50%;
+  z-index: 100;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  margin-top: -33px;
+  padding: 0;
+  cursor: pointer;
+
+  @include max-width-992 {
+    width: 25px;
+    height: 40px;
+    margin-top: -20px;
+  }
+
+  @include max-width-768 {
+    width: 20px;
+    height: 35px;
+    margin-top: -17px;
+  }
+}
+.slider-button svg {
+  max-width: 100%;
+  max-height: 100%;
+}
+.slider-button.slick-next {
+  right: 20px;
+}
+.slider-button.slick-prev {
+  left: 20px;
+}

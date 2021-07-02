@@ -1,0 +1,60 @@
+@import '../../assets/css/mixins';
+@import '../../assets/css/variables';
+
+.button {
+    @include inlineBlock();
+    width: 288px;
+    height: 58px;
+    font-size: rem(18px);
+    color: $white;
+    text-align: center;
+    line-height: 54px;
+    background-color: transparent;
+    border: 3px solid $white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+
+    &:hover {
+        border-color: $red;
+        background-color: $red;
+    }
+
+    &--red {
+        background-color: $red;
+        border-color: $red;
+
+        &:hover {
+            border-color: $white;
+            background-color: transparent;
+        }
+    }
+
+    &:disabled,
+    &:disabled:hover {
+        background-color: $lightGrey;
+        border-color: $lightGrey;
+        color: $grey;
+        pointer-events: none;
+        transition: none;
+    }
+
+    @include max-width-1280 {
+        height: 50px;
+        line-height: 46px;
+    }
+
+    @include max-width-992 {
+        width: 220px;
+        height: 40px;
+        line-height: 40px;
+        border-width: 1px;
+    }
+
+    @include max-width-768 {
+        width: 190px;
+        height: 40px;
+        line-height: 38px;
+        font-size: 1rem;
+    }
+}

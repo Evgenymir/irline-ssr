@@ -1,0 +1,13 @@
+{
+  "delay": "1000",
+  "watch": [
+    "dist/server/main.js"
+  ],
+  "verbose": true,
+  "ext": "jsx",
+  "ignore": [
+    "*.md",
+    "**/*.md",
+    "**/*.css"
+  ]
+}

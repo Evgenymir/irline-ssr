@@ -1,0 +1,31 @@
+@import '../../assets/css/mixins';
+@import '../../assets/css/variables';
+
+.stages-cooperation {
+    position: relative;
+    background-color: #fff;
+    padding-top: 117px;
+
+    @include max-width-1280 {
+        padding-top: 80px;
+    }
+
+    @include max-width-992 {
+        padding-top: 50px;
+    }
+
+    @include max-width-768 {
+        padding-top: 20px;
+    }
+
+    &__block {
+        @include flex(center);
+        flex-wrap: wrap;
+        max-width: 1485px;
+        margin: 0 auto;
+
+        @include max-width-480 {
+            text-align: center;
+        }
+    }
+}

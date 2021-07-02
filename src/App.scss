@@ -1,0 +1,37 @@
+@import 'assets/css/font';
+@import 'assets/css/normalize';
+@import 'assets/css/setting';
+@import './components/header/style.scss';
+@import './components/logo/style.scss';
+@import './components/menu/style.scss';
+@import './components/burger/style.scss';
+@import './components/button/style.scss';
+@import './components/main-screen/style.scss';
+@import '../node_modules/slick-carousel/slick/slick.scss';
+@import './components/slider-button/style.scss';
+@import './components/stages-cooperation/style.scss';
+@import './components/stages-cooperation/components/stages-cooperation-item/style.scss';
+@import './components/popup/popup-stage/style.scss';
+@import './components/about-company/style.scss';
+@import './components/grateful-clients/style.scss';
+@import './components/light-box-modal/style.scss';
+@import './components/contacts/style.scss';
+@import './components/yandex-map/style.scss';
+@import './components/footer/style.scss';
+@import './components/popup/style.scss';
+@import './components/field-input/style.scss';
+@import './components/field-textarea/style.scss';
+@import './components/input/style.scss';
+@import './components/textarea/style.scss';
+@import './components/forms/style.scss';
+@import './components/thanks-block/style.scss';
+@import './components/mobile-menu/style.scss';
+
+/* pages */
+@import './pages/about-page/style.scss';
+@import './pages/services/style.scss';
+@import './pages/products/style.scss';
+@import './pages/product-card/style.scss';
+@import './pages/contact/style.scss';
+@import './pages/privacy-policy/style.scss';
+@import './pages/not-found/style.scss';

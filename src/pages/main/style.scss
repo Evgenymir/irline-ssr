@@ -1,0 +1,24 @@
+@import '../../assets/css/mixins';
+@import '../../assets/css/variables';
+
+.main {
+    text-align: center;
+    padding-top: 50px;
+
+    &__button {
+        margin-right: 20px;
+
+        &:last-child {
+            margin-right: 0;
+
+            @include max-width-768 {
+                margin-right: auto;
+            }
+        }
+
+        @include max-width-768 {
+            display: block;
+            margin: 0 auto 15px;
+        }
+    }
+}

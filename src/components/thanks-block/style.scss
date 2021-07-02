@@ -1,0 +1,16 @@
+@import '../../assets/css/mixins';
+@import '../../assets/css/variables';
+
+.thanks-block {
+  text-align: center;
+
+  &__text {
+    font-size: rem(18px);
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+}
+.thanks-block__button:hover {
+  border-color: lighten($red, 10%);
+  background-color: lighten($red, 10%);
+}
